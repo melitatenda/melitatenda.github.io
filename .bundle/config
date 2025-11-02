@@ -1,0 +1,3 @@
+---
+BUNDLE_TIMEOUT: "600"
+BUNDLE_PATH: "vendor/bundle"
