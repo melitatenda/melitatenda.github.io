@@ -2,6 +2,7 @@
 title: "Characterizing Sequential Patterns of Human Behavior in Advanced Manufacturing"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+share: false
 ---
 
 This project examined the temporal dynamics of human behavior in advanced manufacturing, focusing on interactions within a Wire Arc Additive Manufacturing (WAAM) system at Carnegie Mellon University. It explored whether human actions follow consistent sequential patterns, how these patterns vary across time scales, and what these variations reveal about cognitive and procedural structure in human-machine collaboration.

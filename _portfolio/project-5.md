@@ -2,6 +2,7 @@
 title: "GAN-based Cross-Modality Medical Image Synthesis for Prostate Cancer"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+share: false
 ---
 
 This project presents a GAN-based approach for cross-modality medical image synthesis for prostate cancer diagnosis, using the BicycleGAN architecture to translate ADC MRI scans into high-quality T2-weighted (T2W) MRI images. The proposed method addresses the limitations of multi-sequence MRI acquisition by

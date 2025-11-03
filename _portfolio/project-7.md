@@ -2,6 +2,7 @@
 title: "LLM-Assisted Hospital Navigation and Booking System"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+share: false
 ---
 
 This project aims to address the challenges patients face when navigating hospital websites, booking appointments, and accessing services hospital services. These difficulties often stem from complex interfaces which makes it difficult for patients to navigate hospital websites. To tackle this issue,

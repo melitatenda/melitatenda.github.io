@@ -2,6 +2,7 @@
 title: "People's privacy concerns about new technology (focusing on LLMs)"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+share: false
 ---
 
 This study explored how people perceive and respond to privacy risks when using Large Language Models (LLMs). Through a survey of 25 participants, the research examined users’ knowledge levels, risk perceptions, and behavioral adaptations toward LLM privacy. The findings revealed a significant gap between perceived and actual privacy risks, with users who had lower privacy knowledge expressing higher concern levels.
