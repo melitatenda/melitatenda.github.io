@@ -2,6 +2,8 @@
 title: "Deep Learning-Based Detection of Voice Deepfakes for Fraud Prevention"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+github_url: "https://github.com/psingadi/ai_saturdays_project_deepfake_voice_detection_for_voicecalls"
+date: 2024-10-31
 share: false
 ---
 

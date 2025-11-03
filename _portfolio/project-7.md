@@ -2,6 +2,8 @@
 title: "LLM-Assisted Hospital Navigation and Booking System"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+github_url: "https://github.com/AI-Capstone-Fall-2024"
+date: 2024-12-09
 share: false
 ---
 

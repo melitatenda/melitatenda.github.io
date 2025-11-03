@@ -47,6 +47,11 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.github_url %}
+          <p><a href="{{ page.github_url }}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View on GitHub </a></p>  
+        {% endif %}
+
+
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}

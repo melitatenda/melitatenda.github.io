@@ -1,10 +1,12 @@
 ---
-title: "Customer Segmentation and Classification using Machine Learning"
+title: "Human Resource Management Information System (HRMIS)"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+github_url: "https://github.com/francistate/human-resource-management-information-system-hrmis/tree/tate"
+date: 2023-10-31
 share: false
 ---
 
-This project focuses on implementing machine learning techniques for customer segmentation and classification in e-commerce. Using advanced data analytics and ML algorithms, we developed a model to categorize customers based on their purchasing behavior, demographics, and interaction patterns. The analysis involved data preprocessing, feature engineering, and the application of clustering algorithms to identify distinct customer segments.
+The project focused on developing a functional system to manage employee data, with particular emphasis on attendance tracking. The system featured an **Attendance class** encapsulated within the **Employee class**, enabling efficient recording of employees’ in-time and out-time. It also included methods for calculating total working hours per day and displaying both individual and team attendance records.
 
-The resulting classification model achieved significant accuracy in predicting customer categories, enabling more targeted marketing approaches. Key outcomes include the identification of high-value customer segments, potential churn risks, and opportunities for personalized marketing campaigns. This segmentation framework provides valuable insights for improving customer relationship management and optimizing marketing resource allocation.
+In addition to core functionality, the project incorporated data persistence mechanisms to ensure reliable record storage and retrieval. Comprehensive documentation was created through a detailed **README file**, outlining the project’s structure, functionality, and usage to support future maintenance and scalability.

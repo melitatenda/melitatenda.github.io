@@ -2,6 +2,7 @@
 title: "People's privacy concerns about new technology (focusing on LLMs)"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+date: 2024-11-29
 share: false
 ---
 

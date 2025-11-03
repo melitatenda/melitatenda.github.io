@@ -2,6 +2,8 @@
 title: "SWARM ROBOTICS IN UNDERWATER RESCUE MISSIONS USING THE EXTENDED PSO ALGORITHM (TAPSO)"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+github_url: "https://github.com/melitatenda/Swarm_Robotics_PSO_Algorithm"
+date: 2024-04-29
 share: false
 ---
 

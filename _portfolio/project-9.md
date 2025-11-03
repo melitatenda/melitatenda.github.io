@@ -2,6 +2,8 @@
 title: "Characterizing Sequential Patterns of Human Behavior in Advanced Manufacturing"
 # excerpt: "Designing a framework to transfer skilled motions from casually captured videos of humans and animals to legged robots, including quadrupeds and humanoids, to eliminate the need for expensive motion capture systems and expert animators."
 collection: portfolio
+github_url: "https://github.com/melitatenda/human_machine_interaction"
+date: 2025-06-01
 share: false
 ---
 
