@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Applied Stochastic Processes"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Graduate course"
+# permalink: /teaching/2014-spring-teaching-1
+venue: "Carnegie Mellon University"
+date: 2024-08-26
+location: "Kigali, Rwanda"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+As a Teaching Assistant for Applied Stochastic Processes, I supported the course by preparing instructional materials and clarifying complex concepts for students. I provided individualized assistance during office hours and recitations, fostering student engagement and understanding of stochastic modeling techniques. I also graded assignments and maintained accurate records of student progress to ensure effective course management.

@@ -1,20 +1,12 @@
 ---
-title: "Teaching experience 2"
+title: "Humanoid Robotics and Cognition"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Graduate Course"
+# permalink: /teaching/2015-spring-teaching-1
+venue: "Carnegie Mellon University"
+date: 2025-01-13
+location: "Kigali, Rwanda"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+As a Teaching Assistant for Humanoid Robotics and Cognition, I helped students navigate hands-on robotics experiments and understand how sensors, control systems, and AI come together. I offered guidance during labs and office hours, answering questions and supporting students as they explored complex concepts. I also reviewed lab reports and tracked student progress to help the course run smoothly.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

@@ -11,35 +11,46 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Engineering AI, Carnegie Mellon University, 2025
+* B.S. in Mechanical Engineering, Academic City University, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024 – Present: Graduate Research Associate & Graduate Teaching Assistant
+  * Carnegie Mellon University, Kigali, Rwanda
+  * Duties included: Conducting literature reviews and data analysis for multi-modal AI projects; developing viewpoint-invariant systems using advanced   methodologies; supporting classroom preparation and providing individualized student assistance in Applied Stochastic Processes, Humanoid Robotics, and Privacy Policy, Law, and Technology courses.
+  * Supervisor: Professors at Carnegie Mellon University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2025 – Present: Volunteer Teaching Assistant
+  * AI Saturdays (Saturdays.ai), Kigali, Rwanda
+  * Duties included: Conducting research and fact-checking curriculum materials; maintaining program documentation and student progress records; analyzing participant feedback to support program evaluation and improvement initiatives.
+  * Supervisor: Charles Yusuf
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* February – April 2024: Corporate Venture Capital & Business Analytics Extern
+  * HP Tech Ventures (Remote)
+  * Duties included: Conducting prospect research and due diligence on startup investment opportunities; preparing investment briefs and analytical reports; researching emerging technology trends and market opportunities.
+  * Supervisor: Senior venture capital professionals at HP Tech Ventures
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Technical Expertise
+  * Machine Learning, 
+  * Deep Learning, 
+  * PyTorch, 
+  * TensorFlow, 
+  * Computer Vision, 
+  * Predictive Modeling
+* Research & Analysis
+  * Literature Review,  
+  * Statistical Analysis,
+  * Performance Tracking
+* Digital Proficiency
+  * Google Workspace, 
+  * Microsoft Office Suite, 
+  * Python, 
+  * MATLAB, 
+  * Tableau, 
+  * Excel
 
 Publications
 ======
@@ -47,18 +58,19 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+Teaching Assistantship
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+
