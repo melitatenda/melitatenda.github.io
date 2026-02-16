@@ -1,1 +1,1 @@
-Sitemap: https://melitatenda.github.io/sitemap.xml
+Sitemap: http://localhost:4000/melitatenda.github.io/sitemap.xml
