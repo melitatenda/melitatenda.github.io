@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:melitatenda.github.io)",
+      "Bash(curl -sL --max-time 45 https://melitatenda.github.io/ -o /tmp/melita_site.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL --max-time 90 -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/125.0 Safari/537.36\" https://melitatenda.github.io/ -o /tmp/melita_site.html)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(curl -sI --max-time 20 https://github.com)",
+      "Bash(echo \"github: $?\")",
+      "Bash(curl -sI --max-time 20 https://melitatenda.github.io/)",
+      "Bash(echo \"site: $?\")",
+      "Bash(curl -s --max-time 30 https://api.github.com/users/melitatenda/repos)",
+      "Bash(curl -s --max-time 30 https://api.github.com/repos/melitatenda/melitatenda.github.io/contents/)",
+      "Bash(curl -s --max-time 30 \"https://api.github.com/repos/melitatenda/melitatenda.github.io/git/trees/main?recursive=1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s --max-time 30 https://raw.githubusercontent.com/melitatenda/melitatenda.github.io/main/_config.yml)",
+      "Bash(curl -s --max-time 30 https://raw.githubusercontent.com/melitatenda/melitatenda.github.io/main/_pages/cv.md)",
+      "Bash(curl -s --max-time 30 \"https://api.github.com/repos/melitatenda/melitatenda.github.io/contents/_publications\")",
+      "Bash(curl -s --max-time 30 https://raw.githubusercontent.com/melitatenda/melitatenda.github.io/main/_publications/2010-10-01-paper-title-number-2.md)",
+      "Bash(curl -s --max-time 30 \"https://api.github.com/repos/melitatenda/melitatenda.github.io/contents/_teaching\")",
+      "Bash(curl -s --max-time 30 -o \"/Users/mel/Personal Website/images/profile.jpeg\" \"https://raw.githubusercontent.com/melitatenda/melitatenda.github.io/main/images/profile.jpeg\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s --max-time 30 -o cmu-logo.svg \"https://upload.wikimedia.org/wikipedia/commons/f/f3/Carnegie_Mellon_University_wordmark.svg\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s --max-time 30 -o acity-logo.png \"https://acity.edu.gh/wp-content/uploads/2025/01/acity-logo-new-448x129.png\")"
+    ]
+  }
+}

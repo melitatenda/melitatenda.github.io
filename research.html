@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Melinda Tatenda Mudzurandende</title>
+  <meta name="description" content="Research by Melinda Tatenda Mudzurandende: publications in JCISE and ASME IMECE, plus research projects in human-machine interaction, optimization, and AI privacy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Archivo+Expanded:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="progress" aria-hidden="true"><div class="progress__fill" id="progressFill"></div></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="index.html">MTM<span class="nav__logo-dot"></span></a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="index.html#about"><sup>01</sup>About</a>
+      <a href="experience.html"><sup>02</sup>Experience</a>
+      <a href="projects.html"><sup>03</sup>Projects</a>
+      <a href="research.html" class="is-active"><sup>04</sup>Research</a>
+      <a href="teaching.html"><sup>05</sup>Teaching</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero">
+      <div class="hero__shapes" aria-hidden="true">
+        <div class="shape shape--circle" data-parallax="0.25"></div>
+        <div class="shape shape--ring" data-parallax="0.15"></div>
+      </div>
+      <p class="page-hero__kicker reveal-line"><span>04 · Academia</span></p>
+      <h1 class="page-hero__title">Rese<em>arch</em></h1>
+      <p class="page-hero__lede reveal" data-delay="150">Peer-reviewed publications on human behavior and engineering design, alongside research projects in human-machine interaction, optimization, and AI privacy.</p>
+    </section>
+
+    <!-- ================= 01 PUBLICATIONS ================= -->
+    <section class="section section--dark" id="publications">
+      <div class="section__head">
+        <span class="section__num">01</span>
+        <h2 class="section__title reveal">Publications</h2>
+      </div>
+
+      <div class="pubs">
+        <article class="pub reveal">
+          <span class="pub__year">2025</span>
+          <div class="pub__body">
+            <h3>Characterizing Sequential Patterns of Human Behavior in Advanced Manufacturing</h3>
+            <p class="pub__venue">Journal of Computing and Information Science in Engineering (JCISE) · Accepted</p>
+            <p class="pub__cite">Mudzurandende, M., Flanigan, K., &amp; McComb, C. (2025)</p>
+            <p>Investigates sequential patterns of human behavior in advanced manufacturing environments, highlighting insights for process optimization and safety.</p>
+          </div>
+        </article>
+
+        <article class="pub reveal" data-delay="120">
+          <span class="pub__year">2024</span>
+          <div class="pub__body">
+            <h3>Understanding the Impacts of Jointly Optimizing Product and Supply Chain Decisions for Complex Products</h3>
+            <p class="pub__venue">ASME International Mechanical Engineering Congress and Exposition</p>
+            <p class="pub__cite">Uhles, C., Mudzurandende, M., McComb, C., &amp; Medal, H. (2024) · V001T02A016</p>
+            <p>Examines how integrating product design and supply chain design decisions can improve outcomes for complex products, using a ground vehicle as a case study.</p>
+            <a class="pub__link" href="https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2024/88599/1211523" target="_blank" rel="noopener">Read paper ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= 02 RESEARCH PROJECTS ================= -->
+    <section class="section" id="research-projects">
+      <div class="section__head">
+        <span class="section__num">02</span>
+        <h2 class="section__title reveal">Research<br>Projects</h2>
+        <p class="section__lede reveal" data-delay="150">Studies and investigations that ground my publications and policy interests in hands-on work.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal" data-delay="0">
+          <div class="project__top"><span class="project__no">R·01</span><span class="project__year">2025</span></div>
+          <h3>Sequential Patterns of Human Behavior in Advanced Manufacturing</h3>
+          <p>Analyzed human-machine interaction in a Wire Arc Additive Manufacturing system at CMU using Markov Chains and HMMs, revealing hierarchically organized behavior and a “deterministic illusion” at fine time scales. Accepted for publication in JCISE.</p>
+          <div class="project__tags"><span>HMI</span><span>Probabilistic Models</span><span>Manufacturing</span></div>
+          <a class="project__link" href="https://github.com/melitatenda/human_machine_interaction" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="80">
+          <div class="project__top"><span class="project__no">R·02</span><span class="project__year">2024</span></div>
+          <h3>Product Design &amp; Supply Chain Decisions Optimization</h3>
+          <p>Jointly optimized product design and supply chain configurations for complex products, using an electrical ground vehicle case study to demonstrate gains in efficiency, profitability, and resilience over sequential approaches. Presented at ASME IMECE 2024.</p>
+          <div class="project__tags"><span>Optimization</span><span>Concurrent Engineering</span></div>
+          <a class="project__link" href="https://github.com/cmudrc/sae" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="160">
+          <div class="project__top"><span class="project__no">R·03</span><span class="project__year">2024</span></div>
+          <h3>Swarm Robotics in Underwater Rescue Missions (TAPSO)</h3>
+          <p>Developed a novel Task-Allocation Particle Swarm Optimization algorithm coordinating autonomous underwater robots in 3D environments, achieving a 100% success rate in simulated rescue missions with enhanced obstacle avoidance.</p>
+          <div class="project__tags"><span>Swarm Robotics</span><span>Optimization</span><span>Simulation</span></div>
+          <a class="project__link" href="https://github.com/melitatenda/Swarm_Robotics_PSO_Algorithm" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="240">
+          <div class="project__top"><span class="project__no">R·04</span><span class="project__year">2024</span></div>
+          <h3>Privacy Concerns About LLMs</h3>
+          <p>Survey research (n=25) examining user perceptions, knowledge levels, and behavioral responses to privacy risks in Large Language Models. Produced recommendations for user education, privacy-by-design principles, and inclusive regulatory frameworks.</p>
+          <div class="project__tags"><span>Privacy</span><span>HCI Research</span><span>Policy</span></div>
+        </article>
+      </div>
+
+      <div class="section__cta reveal">
+        <a class="btn" href="teaching.html">See my teaching <span class="btn__arrow">→</span></a>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <footer class="contact" id="contact">
+      <div class="contact__inner">
+        <span class="section__num section__num--light">03</span>
+        <h2 class="contact__title reveal">Let's<br><em>connect.</em></h2>
+        <a class="contact__email reveal" data-delay="100" href="https://www.linkedin.com/in/melinda-tatenda-mudzurandende" target="_blank" rel="noopener">Reach me on LinkedIn ↗</a>
+
+        <div class="contact__links reveal" data-delay="200">
+          <a href="https://github.com/melitatenda" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/melinda-tatenda-mudzurandende" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://scholar.google.com/citations?user=fnZQkHEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a href="https://www.kaggle.com/melindamudzurandende" target="_blank" rel="noopener">Kaggle ↗</a>
+        </div>
+
+        <div class="contact__foot">
+          <span>Melinda Tatenda Mudzurandende</span>
+          <span>Kigali, Rwanda</span>
+          <span>© 2026</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Melinda Tatenda Mudzurandende</title>
+  <meta name="description" content="Nine projects by Melinda Tatenda Mudzurandende spanning robotics, medical imaging, deepfake detection, and human-centered AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Archivo+Expanded:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="progress" aria-hidden="true"><div class="progress__fill" id="progressFill"></div></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="index.html">MTM<span class="nav__logo-dot"></span></a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="index.html#about"><sup>01</sup>About</a>
+      <a href="experience.html"><sup>02</sup>Experience</a>
+      <a href="projects.html" class="is-active"><sup>03</sup>Projects</a>
+      <a href="research.html"><sup>04</sup>Research</a>
+      <a href="teaching.html"><sup>05</sup>Teaching</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero">
+      <div class="hero__shapes" aria-hidden="true">
+        <div class="shape shape--circle" data-parallax="0.25"></div>
+        <div class="shape shape--ring" data-parallax="0.15"></div>
+      </div>
+      <p class="page-hero__kicker reveal-line"><span>03 · Portfolio</span></p>
+      <h1 class="page-hero__title">Proj<em>ects</em></h1>
+      <p class="page-hero__lede reveal" data-delay="150">Nine projects spanning robotics, medical imaging, deepfake detection, optimization, and human-centered AI, built to solve real problems, many of them rooted in African contexts.</p>
+    </section>
+
+    <!-- ================= 01 PROJECTS ================= -->
+    <section class="section" id="all-projects">
+      <div class="section__head">
+        <span class="section__num">01</span>
+        <h2 class="section__title reveal">All<br>Projects</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal" data-delay="0">
+          <div class="project__top"><span class="project__no">P·01</span><span class="project__year">2025</span></div>
+          <h3>Affordable Robotic Hands for Real-Time Sign Language Translation</h3>
+          <p>A low-cost (&lt;$500) robotic system translating between speech and sign language in real time for remote African schools: 3D-printed hands driven by skeletal tracking and multimodal AI, with an open-source modular design encouraging community-driven adaptation, scalability, and cultural relevance.</p>
+          <div class="project__tags"><span>Robotics</span><span>Computer Vision</span><span>Accessibility</span></div>
+          <p class="project__tools"><strong>Tools:</strong> Python, OpenAI API, Unitree Go2 SDK, MediaPipe, OpenCV, Speech Recognition, Jetson Nano Orin</p>
+          <a class="project__link" href="https://github.com/romerik/robot_deaf_sign" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="80">
+          <div class="project__top"><span class="project__no">P·02</span><span class="project__year">2025</span></div>
+          <h3>Sequential Patterns of Human Behavior in Advanced Manufacturing</h3>
+          <p>Analyzed human-machine interaction in a Wire Arc Additive Manufacturing system at CMU using Markov Chains and HMMs, revealing hierarchically organized behavior and a “deterministic illusion” at fine time scales.</p>
+          <div class="project__tags"><span>HMI</span><span>Probabilistic Models</span><span>Manufacturing</span></div>
+          <a class="project__link" href="https://github.com/melitatenda/human_machine_interaction" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="160">
+          <div class="project__top"><span class="project__no">P·03</span><span class="project__year">2024</span></div>
+          <h3>GAN-Based Cross-Modality Medical Image Synthesis for Prostate Cancer</h3>
+          <p>BicycleGAN architecture translating ADC MRI scans into diagnostic-quality T2-weighted images: self-attention, perceptual loss, and gradient penalties pushed PSNR to 26.48 dB, reducing the need for costly multi-sequence MRI in low-resource settings.</p>
+          <div class="project__tags"><span>GANs</span><span>Medical Imaging</span><span>Deep Learning</span></div>
+          <a class="project__link" href="https://github.com/francistate/GAN-based-scan-image-translation" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="0">
+          <div class="project__top"><span class="project__no">P·04</span><span class="project__year">2024</span></div>
+          <h3>LLM-Assisted Hospital Navigation &amp; Booking System</h3>
+          <p>A web-based intelligent chat assistant for navigating hospital services and booking appointments in natural language, connected to a mock hospital API for real-time doctor availability with feedback-driven improvement.</p>
+          <div class="project__tags"><span>LLMs</span><span>Healthcare</span><span>UX</span></div>
+          <a class="project__link" href="https://github.com/AI-Capstone-Fall-2024" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="80">
+          <div class="project__top"><span class="project__no">P·05</span><span class="project__year">2024</span></div>
+          <h3>Deep Learning Detection of Voice Deepfakes for Fraud Prevention</h3>
+          <p>A deep learning model distinguishing real from synthetic voice recordings using MFCC features, reaching 99.2% validation and 99.5% test accuracy for voice authentication and digital media forensics.</p>
+          <div class="project__tags"><span>Audio ML</span><span>Security</span><span>MFCC</span></div>
+          <a class="project__link" href="https://github.com/psingadi/ai_saturdays_project_deepfake_voice_detection_for_voicecalls" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="160">
+          <div class="project__top"><span class="project__no">P·06</span><span class="project__year">2024</span></div>
+          <h3>Privacy Concerns About LLMs</h3>
+          <p>Survey research (n=25) examining user perceptions, knowledge levels, and behavioral responses to privacy risks in Large Language Models; 70% of participants adjusted their usage over privacy worries. Produced recommendations for user education, privacy-by-design principles, and inclusive regulatory frameworks.</p>
+          <div class="project__tags"><span>Privacy</span><span>HCI Research</span><span>Policy</span></div>
+          <p class="project__tools"><strong>Tools:</strong> Google Forms, Python (pandas, scipy, matplotlib, seaborn), Excel</p>
+        </article>
+
+        <article class="project reveal" data-delay="0">
+          <div class="project__top"><span class="project__no">P·07</span><span class="project__year">2024</span></div>
+          <h3>Swarm Robotics in Underwater Rescue Missions (TAPSO)</h3>
+          <p>A novel Task-Allocation Particle Swarm Optimization algorithm coordinating autonomous underwater robots in 3D environments, achieving a 100% success rate in simulated rescue missions with enhanced obstacle avoidance.</p>
+          <div class="project__tags"><span>Swarm Robotics</span><span>Optimization</span><span>Simulation</span></div>
+          <a class="project__link" href="https://github.com/melitatenda/Swarm_Robotics_PSO_Algorithm" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="80">
+          <div class="project__top"><span class="project__no">P·08</span><span class="project__year">2024</span></div>
+          <h3>Product Design &amp; Supply Chain Decisions Optimization</h3>
+          <p>Jointly optimizing product design and supply chain configurations for complex products: an electrical ground vehicle case study demonstrating gains in efficiency, profitability, and resilience over sequential approaches.</p>
+          <div class="project__tags"><span>Optimization</span><span>Concurrent Engineering</span></div>
+          <a class="project__link" href="https://github.com/cmudrc/sae" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal" data-delay="160">
+          <div class="project__top"><span class="project__no">P·09</span><span class="project__year">2023</span></div>
+          <h3>Human Resource Management Information System</h3>
+          <p>A functional employee-data system with attendance tracking: an Attendance class encapsulated within Employee, working-hour computation, team records, and persistent storage with full documentation.</p>
+          <div class="project__tags"><span>Software Engineering</span><span>OOP</span></div>
+          <a class="project__link" href="https://github.com/francistate/human-resource-management-information-system-hrmis/tree/tate" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+      </div>
+
+      <div class="section__cta reveal">
+        <a class="btn" href="research.html">See my research <span class="btn__arrow">→</span></a>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <footer class="contact" id="contact">
+      <div class="contact__inner">
+        <span class="section__num section__num--light">02</span>
+        <h2 class="contact__title reveal">Let's<br><em>connect.</em></h2>
+        <a class="contact__email reveal" data-delay="100" href="https://www.linkedin.com/in/melinda-tatenda-mudzurandende" target="_blank" rel="noopener">Reach me on LinkedIn ↗</a>
+
+        <div class="contact__links reveal" data-delay="200">
+          <a href="https://github.com/melitatenda" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/melinda-tatenda-mudzurandende" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://scholar.google.com/citations?user=fnZQkHEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a href="https://www.kaggle.com/melindamudzurandende" target="_blank" rel="noopener">Kaggle ↗</a>
+        </div>
+
+        <div class="contact__foot">
+          <span>Melinda Tatenda Mudzurandende</span>
+          <span>Kigali, Rwanda</span>
+          <span>© 2026</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
